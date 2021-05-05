@@ -12,6 +12,6 @@ namespace ClassLibrary
         public DateTime DateBorrowed { get; set; }
         public DateTime DateReturned { get; set; }
         public StudentModel BorrowedBy { get; set; }
-        public BookModel Book { get; set; }
+        public BookModel BorrowedBook { get; set; }
     }
 }
