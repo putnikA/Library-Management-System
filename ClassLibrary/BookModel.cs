@@ -15,7 +15,7 @@ namespace ClassLibrary
         public DateTime PurchaseDate { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
-        public List<StudentModel> BorrowedBy { get; set; }
+        //public List<StudentModel> BorrowedBy { get; set; }
         public DateTime DateBorrowed { get; set; }
         public DateTime DateReturned { get; set; }
     }
